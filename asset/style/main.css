@@ -1,0 +1,126 @@
+@import "var.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+/* Navbar */
+
+.nav-item .active {
+  color: var(--primary) !important;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.176px;
+  text-decoration-line: underline;
+}
+
+.nav-item .nav-link {
+  color: #121212;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.176px;
+}
+
+.nav-item .nav-link:hover {
+  color: var(--primary);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.176px;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #121212;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.176px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: var(--primary);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.176px;
+  background-color: #fff;
+}
+
+/* hero */
+
+.btn-hero {
+  background-color: var(--danger);
+  color: #fff;
+}
+
+.btn-hero:hover {
+  background-color: var(--danger-hover);
+  color: #fff;
+}
+
+/* sekilas info */
+.info {
+  background-color: var(--danger-surface);
+}
+
+.head-title {
+  color: var(--primary);
+
+  /* Heading Text XXXL/Semi Bold */
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 89.6px */
+  letter-spacing: -1.472px;
+}
+
+.card-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: -0.504px;
+}
+
+.card-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.272px;
+}
+
+.card-text-footer {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.306px;
+}

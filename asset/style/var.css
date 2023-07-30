@@ -1,0 +1,19 @@
+:root {
+  --primary: #dc0000;
+  --accent: #aaa492;
+
+  /* background */
+  --background: #fff;
+
+  /* danger */
+  --danger: #e33e34;
+  --danger-surface: #f9d8d6;
+  --danger-border: #f6bfbb;
+  --danger-hover: #bd342b;
+  --danger-pressed: #711f1a;
+
+  /* etc */
+  --success: #43b57d;
+  --warning: #cd7b2e;
+  --info: #3267e3;
+}
