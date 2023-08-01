@@ -14,6 +14,9 @@
 
   /* etc */
   --success: #43b57d;
+  --success-hover: #288659;
   --warning: #cd7b2e;
+  --warning-hover: #915823;
   --info: #3267e3;
+  --info-hover: #0c40b9;
 }

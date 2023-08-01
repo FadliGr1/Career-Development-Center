@@ -124,3 +124,296 @@ p {
   line-height: 140%; /* 25.2px */
   letter-spacing: -0.306px;
 }
+
+/* Explore CDC */
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-header .card {
+  border-radius: 12px;
+  border: 3px solid #d7d7d7;
+  background: var(--netural-100, #fff);
+}
+
+.accordion-header .card:hover {
+  background-color: var(--primary);
+  border-radius: 12px;
+  border: 3px solid #d7d7d7;
+  color: #fff;
+}
+
+.card-item {
+  border-radius: 20px;
+  background: var(--neutral-10, #fff);
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.2em;
+  height: 100%;
+}
+
+.card-head {
+  background-image: url(../img/news_item.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 194px;
+  border-radius: 20px;
+}
+.card-head-2 {
+  background-image: url(../img/news-item-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 194px;
+  border-radius: 20px;
+}
+
+.card-career {
+  background-image: url(../img/career-item.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 194px;
+  border-radius: 20px;
+}
+
+.card-fulltime {
+  background-image: url(../img/full_time_item.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 194px;
+  border-radius: 20px;
+}
+
+.card-inter {
+  background-image: url(../img/intership.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 194px;
+  border-radius: 20px;
+}
+
+.card-event {
+  background-image: url(../img/poster-webinar1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 194px;
+  border-radius: 20px;
+}
+
+.btn-news {
+  border-radius: 5.824px;
+  background: var(--danger);
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  width: 94px;
+  height: 40px;
+}
+
+.btn-news:hover {
+  border-radius: 5.824px;
+  background: var(--danger-hover);
+  color: #fff;
+}
+
+.btn-career {
+  border-radius: 5.824px;
+  background: var(--info);
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  width: 94px;
+  height: 40px;
+}
+
+.btn-career:hover {
+  border-radius: 5.824px;
+  background: var(--info-hover);
+  color: #fff;
+}
+
+.btn-fulltime {
+  border-radius: 5.824px;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  width: 94px;
+  height: 40px;
+}
+
+.btn-fulltime:hover {
+  border-radius: 5.824px;
+  background: #2c2c2c;
+  color: #fff;
+}
+
+.btn-inter {
+  border-radius: 5.824px;
+  background-color: var(--success);
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  width: 94px;
+  height: 40px;
+}
+
+.btn-inter:hover {
+  border-radius: 5.824px;
+  background: var(--success-hover);
+  color: #fff;
+}
+
+.btn-event {
+  border-radius: 5.824px;
+  background-color: var(--warning);
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  width: 94px;
+  height: 40px;
+}
+
+.btn-event:hover {
+  border-radius: 5.824px;
+  background: var(--warning-hover);
+  color: #fff;
+}
+
+.card-body hr {
+  color: var(--primary);
+}
+
+.footer-text {
+  color: var(--primary);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 16.8px */
+  letter-spacing: -0.204px;
+}
+
+.footer-desc {
+  color: var(--sekunder-500, #b8b3a4);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 16.8px */
+  letter-spacing: -0.204px;
+}
+
+.btn-explore {
+  border-radius: 7px;
+  background: var(--primary);
+  color: #fff;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.176px;
+}
+
+.btn-explore:hover {
+  border-radius: 7px;
+  background: var(--danger-hover);
+  color: #fff;
+}
+
+/* campus hiring */
+.campus {
+  background: var(--danger-surface);
+}
+
+.head-title-campus {
+  color: var(--info);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 89.6px */
+  letter-spacing: -1.472px;
+}
+
+/* testimoni */
+
+.profile {
+  background-image: url(../img/testimoni.png);
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-2 {
+  background-image: url(../img/testimoni_1.png);
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-3 {
+  background-image: url(../img/testimoni_2.png);
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-4 {
+  background-image: url(../img/testimoni_3.png);
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-5 {
+  background-image: url(../img/testimoni_4.png);
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-6 {
+  background-image: url(../img/testimoni_5.png);
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testi {
+  font-size: 12px;
+}
+
+.card-testimoni:hover {
+  background: var(--danger);
+  color: #fff;
+}
+
+/* footer */
+.footer {
+  background: linear-gradient(172deg, #dc0000 0%, #e22a2a 100%);
+}
+
+.ion-icon {
+  font-size: 30px;
+  color: #fff;
+}
